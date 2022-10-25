@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-form">
+            <div class="header">
+                <h1>What's up, <input type="text" placeholder="your name" id="username"></h1>
+                <h2>Add things to your TODO list</h2>
+            </div>
+            <div class="input">
+                <input type="text" id="input-form">
+                <div class="add-button">Add</div>
+            </div>
+            <div class="error-message">Please, add a note</div>
+            <div class="todo-list"></div>
+            <div class="done-list">
+                <div class="header">
+                    <h1>List of completed tasks</h1>
+                    <div class="list-empty">You haven't completed any tasks yet!</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
